@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/SoftBackground"
+    tools:context=".BuyVehicle">
+
+    <TextView
+        android:id="@+id/tvCancel"
+        style="@style/SecNavBtn"
+        android:text="Cancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvDone"
+        style="@style/PrimeNavBtn"
+        android:text="Done"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lb_heading"
+        style="@style/Heading"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:text="Buy Vehicle"
+        android:textColor="@color/Purple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCancel" />
+
+    <TextView
+        android:id="@+id/lb_subheading"
+        style="@style/Subheading"
+        android:layout_marginStart="30dp"
+        android:text="Fill the following details to buy a vehicle"
+        android:textColor="@color/Gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb_heading" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lb_subheading"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvOwnerName"
+                android:text="Name"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etOwnerName"
+                style="@style/MyEditText"
+                android:inputType="textCapWords"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvOwnerMobile"
+                android:text="Mobile Number"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etOwnerMobile"
+                style="@style/MyEditText"
+                android:inputType="number"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvOwnerAddress"
+                android:text="Address"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etVehicleType"
+                style="@style/MyEditText"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvVehicleType"
+                android:text="Vehicle Type"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etOwnerAddress"
+                style="@style/MyEditText"
+                android:inputType="textCapWords"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvVehicleYear"
+                android:text="Vehicle Model Year"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etVehicleYear"
+                style="@style/MyEditText"
+                android:inputType="number"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvVehicleNumber"
+                android:text="Vehicle Number"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etVehicleNumber"
+                style="@style/MyEditText"
+                android:inputType="textCapCharacters"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvChassisNumber"
+                android:text="Chassis Number"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etChassisNumber"
+                style="@style/MyEditText"
+                android:inputType="textCapCharacters"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvEngineNumber"
+                android:text="Engine Number"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etEngineNumber"
+                style="@style/MyEditText"
+                android:inputType="textCapCharacters"
+                android:paddingStart="10dp"/>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvTotalAmount"
+                android:text="Total Amount"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etTotalAmount"
+                style="@style/MyEditText"
+                android:paddingStart="10dp"
+                android:inputType="number"
+                />
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvAdvanceAmount"
+                android:text="Advance Amount"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etAdvanceAmount"
+                style="@style/MyEditText"
+                android:inputType="number"
+                android:paddingStart="10dp"/>
+
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:id="@+id/tvRemainingAmount"
+                android:text="Remaining Amount"
+                style="@style/Body.main"
+                />
+            <EditText
+                android:layout_marginTop="0dp"
+                android:id="@+id/etRemainingAmount"
+                style="@style/MyEditText"
+                android:inputType="number"
+                android:paddingStart="10dp"/>
+
+            </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

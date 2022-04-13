@@ -7,7 +7,12 @@
         <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/drawable/bg_et.xml" value="0.1625" />
         <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1625" />
         <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/font/roboto_bold.xml" value="0.27589743589743587" />
+        <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/layout/activity_buy.xml" value="0.25" />
+        <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/layout/activity_buy_vehicle.xml" value="0.25" />
+        <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/layout/activity_dashboard.xml" value="0.176" />
         <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/layout/activity_search_vehicle.xml" value="0.25" />
+        <entry key="..\:/Users/91860/AndroidStudioProjects/NIM/app/src/main/res/layout/activity_sell_vehicle.xml" value="0.25" />
       </map>
     </option>
   </component>

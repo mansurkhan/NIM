@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1076228360402",
+    "project_id": "nimproject-d6c57",
+    "storage_bucket": "nimproject-d6c57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076228360402:android:2edcb8998ff4ee2301c50b",
+        "android_client_info": {
+          "package_name": "com.example.nim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076228360402-j0qnav39p8tr94amcijuj9qj9df5clvi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8gIXfYCFsHPN81_-f2ejmolrtJorj6UQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076228360402-j0qnav39p8tr94amcijuj9qj9df5clvi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
